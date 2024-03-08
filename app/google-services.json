@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "714763962056",
+    "firebase_url": "https://data-insert-42d4d-default-rtdb.firebaseio.com",
+    "project_id": "data-insert-42d4d",
+    "storage_bucket": "data-insert-42d4d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714763962056:android:e9420eafa8f70ab03e07fd",
+        "android_client_info": {
+          "package_name": "com.example.datainsert"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714763962056-b48nbo25ia3bu5ic8jlodkeqe03scs2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNPX8Rh9urOMBR79eXoEW5NGWYbdiABfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714763962056-b48nbo25ia3bu5ic8jlodkeqe03scs2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714763962056:android:6e390f93f9f943543e07fd",
+        "android_client_info": {
+          "package_name": "com.ghanshyam.voguevibe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714763962056-b48nbo25ia3bu5ic8jlodkeqe03scs2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNPX8Rh9urOMBR79eXoEW5NGWYbdiABfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714763962056-b48nbo25ia3bu5ic8jlodkeqe03scs2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714763962056:android:fab1fecec9d253223e07fd",
+        "android_client_info": {
+          "package_name": "com.ghanshyam.voguevibeadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714763962056-b48nbo25ia3bu5ic8jlodkeqe03scs2v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNPX8Rh9urOMBR79eXoEW5NGWYbdiABfY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714763962056-b48nbo25ia3bu5ic8jlodkeqe03scs2v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
