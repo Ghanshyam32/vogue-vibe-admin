@@ -34,7 +34,7 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
-    buildFeatures{
+    buildFeatures {
         viewBinding = true;
     }
 }
@@ -55,5 +55,11 @@ dependencies {
     implementation("com.intuit.sdp:sdp-android:1.1.0")
 
     //Color picker
-    implementation ("com.github.skydoves:colorpickerview:2.2.4")
+    implementation("com.github.skydoves:colorpickerview:2.2.4")
+
+    //Coroutines
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-play-services:1.7.3")
+
+    //lifecycle
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
 }
