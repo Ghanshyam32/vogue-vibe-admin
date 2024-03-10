@@ -138,6 +138,22 @@ class MainActivity : AppCompatActivity() {
         val sizes = getSizesList(binding.edSizes.text.toString().trim())
         val images = mutableListOf<String>()
 
+        // Clearing previous images and colors
+        selectedImages.clear()
+        selectedColors.clear()
+
+        // Clearing UI representations
+        binding.tvSelectedImages.text = ""
+        binding.tvSelectedColors.text = ""
+
+        // Clearing EditText fields
+        binding.edName.text.clear()
+        binding.edCategory.text.clear()
+        binding.edPrice.text.clear()
+        binding.offerPercentage.text.clear()
+        binding.edDescription.text.clear()
+        binding.edSizes.text.clear()
+
         lifecycleScope.launch(Dispatchers.IO) {
             withContext(Dispatchers.Main) {
                 showLoading()
@@ -172,7 +188,7 @@ class MainActivity : AppCompatActivity() {
                 sizes,
                 images
             )
-            firestore.collection("Products").add(product).addOnSuccessListener {
+            firestore.collection("products").add(product).addOnSuccessListener {
                 hideLoading()
             }.addOnFailureListener {
                 hideLoading()
